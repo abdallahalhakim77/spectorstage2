@@ -33,11 +33,7 @@ paths:
           application/json:
             schema:
               type: object
-              description: |-
-                { "userId": " ",
-
-                "channelId": " "
-                }
+              description: ''
               properties:
                 userID:
                   type: string
