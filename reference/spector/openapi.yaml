@@ -33,7 +33,11 @@ paths:
           application/json:
             schema:
               type: object
-              description: ''
+              description: |-
+                { "userId": " ",
+
+                "channelId": " "
+                }
               properties:
                 userID:
                   type: string
@@ -42,7 +46,10 @@ paths:
               required:
                 - userID
                 - channelId
-            examples: {}
+            examples:
+              Example:
+                userId: '333'
+                channelId: '12'
       description: add users
       operationId: addUserbyIdChannel
   /admin/delete:
